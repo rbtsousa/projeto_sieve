@@ -20,10 +20,11 @@ export const StyledHeader = styled.div`
           list-style: none;
           font-style: normal;
           font-weight: bold;
-          font-size: 36px;
-          line-height: 44px;
+          font-size: 32px;
+          line-height: 40px;
           text-align: right;
           color: #928D8D;
+          opacity: 0.8;
       }
   }
   span{
@@ -32,8 +33,9 @@ export const StyledHeader = styled.div`
         font-style: normal;
         font-weight: bold;
         font-size: 55px;
-        line-height: 44px;
+        line-height: 50px;
         color: #928D8D;
+        opacity: 0.8;
   }
   button{
       margin: 0px 30px 0px 10px;
@@ -47,6 +49,7 @@ export const StyledHeader = styled.div`
       height: 50px;
       border-radius: 12px;
       background-color: #ffffff;
+      opacity: 0.8;
   }
 `;
 
