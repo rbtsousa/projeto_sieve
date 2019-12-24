@@ -2,19 +2,29 @@ import styled from 'styled-components';
 
 
 export const ContainerCl = styled.div`
-
 border: 1px solid #C4C4C4;
 display:flex;
 justify-content: space-between;
-height: 120px;
-width: 90%;
+width: 95%;
 margin: 0 auto;
 border-radius: 12px;
 box-sizing: border-box;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
 align-items: center;
 margin-top: 20px;
-
+margin-bottom: 10px;
+    hr{
+        opacity:0.2
+    }
+    .senac{
+        margin: 0px 0px 35px 35px
+    };
+    .firjan{
+        margin: 15px 0px 0px 0px
+    }
+    .recode{
+        margin: 15px 25px 0px 0px
+    }
 `
 export const P = styled.div`
    margin-top: 20px;
@@ -28,7 +38,8 @@ export const P = styled.div`
 `
 
 export const HR = styled.hr`
+    margin: 0 auto;
     margin-top: 20px;
-    height: 70px;
+    width: 70%;
     opacity: 0.2;
 `

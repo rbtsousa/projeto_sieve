@@ -20,7 +20,7 @@ export const Card = styled.div`
     box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.4);
     border-radius: 18px;
     border: 1px #A1A1A1 solid;
-    width: 300px;
+    max-width: 270px;
     padding: 50px;
     margin: 10px;
     height: 400px;
@@ -40,6 +40,7 @@ export const Card = styled.div`
         width: 250px
     }
     img{
+        display: flex;
         margin-bottom: 20px;
     }
     hr{
