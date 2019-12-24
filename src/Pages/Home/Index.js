@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import Cards from './components/Cards';
 import Clientes from './components/Clientes';
 import Planos from './components/Planos';
+import Footer from './components/Footer/index';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Cards />
       <Clientes />
       <Planos/>
+      <Footer/>
     </>
   );
 }

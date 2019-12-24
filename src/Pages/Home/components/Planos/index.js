@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyledPlanos,PlanosSmall,PlanosGrand,Title, HR} from './styles'
+import {StyledPlanos,PlanosSmall,PlanosGrand,Title} from './styles'
 export default function Planos() {
     return (
         <>
@@ -44,7 +44,6 @@ export default function Planos() {
                     <button>contrate</button>
                 </PlanosSmall>
             </StyledPlanos>
-            <HR></HR>
         </>
     );
 }

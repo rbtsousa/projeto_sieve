@@ -9,6 +9,7 @@ export const Title = styled.span`
     font-size: 20px;
     color: #a5a1a1;
     margin-bottom: 30px;
+    
 `
 export const StyledPlanos = styled.div`
     display:flex;
@@ -37,7 +38,7 @@ export const PlanosSmall = styled.div`
 };
     li{
        list-style-image: url("https://i.imgur.com/CSDdTtu.png?2");
-       margin: 5px;
+       margin: 2px;
 }
     button{
         font-family: 'Nunito', sans-serif;
@@ -49,15 +50,19 @@ export const PlanosSmall = styled.div`
         width: 150px;
         font-weight: bold;
         background-color: #ffffff;
+        margin: 0px;
 }
     hr{
         width: 150px;
         height: 1px;
         margin: 10px;
-
-    
-
 }
+span{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+    }
 
          
 `;
@@ -98,19 +103,20 @@ export const PlanosGrand = styled.div`
         width: 150px;
         font-weight: bold;
         background-color: #ffffff;
+        
   
   }
   hr{
         width: 150px;
         height: 1px;
         margin: 10px;
-}         
-`
-
-export const HR = styled.hr`
-    margin-top: 20px;
-    height: 70%;
-    opacity: 0.2;
+}
+span{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+    }
 
 `
 
