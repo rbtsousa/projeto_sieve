@@ -1,6 +1,6 @@
 import React from 'react';
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
-import {StyledCarousel} from './styles'
+import {StyledCarousel,Hr} from './styles'
 export default function Carousel() {
   const[index,setIndex] = React.useState(0);  
   
@@ -10,7 +10,7 @@ export default function Carousel() {
       "https://i.imgur.com/uj6zeJ1.png"
     },
   ];
-  return (
+  return (<>
     <StyledCarousel>
       <Gallery
         index={index}
@@ -23,5 +23,7 @@ export default function Carousel() {
         ))}
       </Gallery>
     </StyledCarousel>
+    <Hr color= "#c4c4c4"/>
+    </>
   );
 }

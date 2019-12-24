@@ -9,14 +9,15 @@ export const StyledHeader = styled.div`
   box-sizing: border-box;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  padding: 30px;
   z-index: 1;
   position: fixed;
   width: 100%;
   ul{
       display: flex;  
+      padding: 30px;
+
       li{
-          margin: 0px 15px 0px 15px;
+          margin: 7px 15px 0px 15px;
           list-style: none;
           font-style: normal;
           font-weight: bold;
@@ -36,20 +37,25 @@ export const StyledHeader = styled.div`
         line-height: 50px;
         color: #928D8D;
         opacity: 0.8;
+        padding: 30px;
   }
   button{
-      margin: 0px 30px 0px 10px;
+      margin: 30px;
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 25px;
-      color: #928D8D;  
+      color: #A8A4A4;  
       border: 6px solid #4484CE;
       width: 150px;
       height: 50px;
       border-radius: 12px;
       background-color: #ffffff;
-      opacity: 0.8;
   }
 `;
+export const HR = styled.hr`
+    margin-top: 20px;
+    height: 70px;
+    opacity: 0.8;
+`
 
