@@ -5,11 +5,16 @@ export const ContainerCards = styled.div`
     margin: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
+    a{
+        
+    }
 `   
 ;
 export const Card = styled.div`
-    display: block;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     background: #FFFFFF;
     box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.4);
     border-radius: 18px;
@@ -40,7 +45,4 @@ export const Card = styled.div`
 export const ContainerImg = styled.div`
     display: flex;
     justify-content: center;
-`
-export const StyledA = styled.div`
-    
 `
