@@ -1,5 +1,5 @@
 import React from 'react';
-import {ContainerCards,Card,ContainerImg} from './styles'
+import {ContainerCards,Card,ContainerImg,Hr} from './styles'
 export default function Cards() {
   return (
     <>
@@ -24,7 +24,7 @@ export default function Cards() {
             </div>
             <a href="http://www.mozilla.com/">Saiba mais</a>
         </Card>
-            
+
         <Card>
             <ContainerImg>
             <img src="https://i.imgur.com/1QoIeKR.png" alt=""/>
@@ -36,7 +36,7 @@ export default function Cards() {
             <a href="http://www.mozilla.com/">Saiba mais</a>
         </Card>
     </ContainerCards>
-    <hr></hr>
+                      <Hr color= "#c4c4c4"/>
     </>
   );
 }

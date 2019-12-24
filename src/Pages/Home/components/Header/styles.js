@@ -8,12 +8,11 @@ export const StyledHeader = styled.div`
   border: 3px solid rgba(171, 167, 167, 0.8);
   box-sizing: border-box;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
   z-index: 1;
   position: fixed;
   width: 100%;
   ul{
-      display: flex;  
+      display: flex;
       padding: 30px;
 
       li{
@@ -33,7 +32,7 @@ export const StyledHeader = styled.div`
         font-family: 'Molle', cursive;
         font-style: normal;
         font-weight: bold;
-        font-size: 55px;
+        font-size: 60px;
         line-height: 50px;
         color: #928D8D;
         opacity: 0.8;
@@ -45,17 +44,22 @@ export const StyledHeader = styled.div`
       font-style: normal;
       font-weight: bold;
       font-size: 25px;
-      color: #A8A4A4;  
-      border: 6px solid #4484CE;
-      width: 150px;
+      color: #A8A4A4;
+      border: 3px solid #4484CE;
+      width: 160px;
       height: 50px;
       border-radius: 12px;
       background-color: #ffffff;
   }
+  button:hover{
+      background-color: #4484CE;
+      color: #ffffff;
+  }
+
 `;
 export const HR = styled.hr`
     margin-top: 20px;
     height: 70px;
-    opacity: 0.8;
+    opacity: 0.2;
 `
 

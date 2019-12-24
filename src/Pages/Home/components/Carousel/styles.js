@@ -10,4 +10,5 @@ export const StyledCarousel = styled.div`
 export const Hr = styled.hr`
     margin: 0 auto;
     width: 70%;
+    opacity: 0.2;
 `

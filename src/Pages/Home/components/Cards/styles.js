@@ -5,10 +5,11 @@ export const ContainerCards = styled.div`
     margin: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
+
     a{
-        
+       text-decoration: none;
     }
-`   
+`
 ;
 export const Card = styled.div`
     display: flex;
@@ -41,8 +42,17 @@ export const Card = styled.div`
     img{
         margin-bottom: 20px;
     }
+    hr{
+      width: 13
+    }
 `;
 export const ContainerImg = styled.div`
     display: flex;
     justify-content: center;
+`
+
+export const Hr = styled.hr`
+    margin: 0 auto;
+    width: 70%;
+    opacity: 0.2;
 `
