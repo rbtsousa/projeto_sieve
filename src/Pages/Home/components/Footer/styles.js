@@ -34,6 +34,7 @@ export const StyledIcons = styled.div`
     div{
         display: flex;
         align-items: center;
+        margin: 10px;
     }
     ;
     span{
