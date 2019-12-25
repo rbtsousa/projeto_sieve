@@ -21,10 +21,14 @@ export const Rodape = styled.div`
         height: 60px;
     }
     ul{
-        margin: 15px;
+        margin: 10px;
+    }
+    li{
+        list-style: none;
+        margin: 5px;
     }
     span{
-        margin: 10px;
+        margin: 10px 15px 10px 15px;
     }
 `;
 
