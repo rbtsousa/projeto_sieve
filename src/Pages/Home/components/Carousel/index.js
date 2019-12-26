@@ -2,12 +2,14 @@ import React from 'react';
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
 import {StyledCarousel,Hr} from './styles'
 export default function Carousel() {
-  const[index,setIndex] = React.useState(0);  
-  
+  const[index,setIndex] = React.useState(0);
+
   const images = [
     {
       src:
       "https://i.imgur.com/uj6zeJ1.png"
+
+
     },
   ];
   return (<>

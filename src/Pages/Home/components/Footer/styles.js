@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const StyledFooter = styled.div`
     margin-top: 50px;
     background-color: #37494D;
-    
+
 `;
 
 export const Rodape = styled.div`
@@ -19,6 +19,7 @@ export const Rodape = styled.div`
     hr{
         margin-top: 10px;
         height: 60px;
+        opacity: 0.2;
     }
     ul{
         margin: 10px;
@@ -42,9 +43,10 @@ export const StyledIcons = styled.div`
     }
     ;
     span{
-        font-size: 25px;
+        font-size: 20px;
         color: #fff;
         font-weight: bolder;
+        margin: 10px;
     }
 `
 export const HR = styled.hr`

@@ -7,8 +7,8 @@ export default function Footer() {
     <>
       <StyledFooter>
         <StyledIcons>
-          <div><MdPhoneInTalk color="#fff" size="55px" /><span>21 2687-7214</span></div>
-          <div><AiOutlineFacebook color="#fff" size="55px" /><AiOutlineInstagram color="#fff" size="56px" /></div>
+          <div><MdPhoneInTalk color="#fff" size="30px"  /><span>21 2687-7214</span></div>
+          <div><AiOutlineFacebook color="#fff" size="45px" /><AiOutlineInstagram color="#fff" size="47px" /></div>
         </StyledIcons>
         <HR></HR>
         <Rodape>
