@@ -7,7 +7,7 @@ export default function LoginCard() {
     <>
     <ContainerLogin>
 
-      <h1>HelloWorld</h1>
+      <h1>Hello World</h1>
 
     </ContainerLogin>
     </>
