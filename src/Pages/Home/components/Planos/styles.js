@@ -40,6 +40,7 @@ export const PlanosSmall = styled.div`
     margin: 2px;
   }
   button {
+    margin-top: auto;
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-size: 24px;
@@ -49,7 +50,7 @@ export const PlanosSmall = styled.div`
     width: 150px;
     cursor: pointer;
     background-color: #ffffff;
-    margin: 0px;
+
   }
   button:hover {
     color: #fff;
@@ -74,7 +75,7 @@ export const PlanosGrand = styled.div`
   font-size: 16px;
   color: #a8a4a4;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #ffffff;
@@ -90,11 +91,13 @@ export const PlanosGrand = styled.div`
   li {
     list-style-image: url("https://i.imgur.com/CSDdTtu.png?2");
     margin: 5px;
+    margin-top: auto;
   }
   ul {
     margin: 30px 0px 30px 0px;
   }
   button {
+    margin-top: auto;
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-size: 24px;

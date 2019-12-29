@@ -13,17 +13,16 @@ export const ContainerCards = styled.div`
 ;
 export const Card = styled.div`
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: auto;
+    height: 400px;
     align-items: center;
-    justify-content: center;
     background: #FFFFFF;
     box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.4);
     border-radius: 18px;
     border: 1px #A1A1A1 solid;
     max-width: 270px;
     padding: 50px;
-    margin: 10px;
-    height: 400px;
     p{
         font-family: Montserrat;
         font-style: normal;
@@ -46,10 +45,14 @@ export const Card = styled.div`
     hr{
       width: 13
     }
+    a{
+        margin-top: auto;
+    }
 `;
 export const ContainerImg = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
 `
 
 export const Hr = styled.hr`

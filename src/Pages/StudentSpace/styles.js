@@ -43,11 +43,15 @@ export const NavStyled = styled.nav`
             margin: 5px 5px 10px 5px;
             flex-direction: column;
             font-size: 20px;
-            align-items: flex-start;
+            a{
+                text-decoration: none;
+                color: white;
+            }
         };
     };
     li{
         list-style: none; 
+        cursor: pointer;
     };
     span{
         margin:5px;
@@ -71,6 +75,7 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
     background:  #85282F;
+    height: 100vh;
     main{
         display: flex;
         flex: 1;
