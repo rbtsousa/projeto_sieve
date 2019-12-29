@@ -1,17 +1,7 @@
 import styled from "styled-components"
 
 export const Aside = styled.div`
-    display: flex;
-    flex-direction:  column;
-    max-width: 250px;
-    justify-content: space-between;
-    background-color: #222D2F;
-    color: #fff;
-    div{
-        margin: 5px;
-    };
-
-
+    display: flex;   
 `
 export const HeaderStyled = styled.header`
     display: flex;
@@ -19,54 +9,84 @@ export const HeaderStyled = styled.header`
     color : #fff;
     justify-content: space-between;
     font-family: Molle;
-    background-color: #222D2F;
+    background-color: #222D2F; 
     font-size: 45px;
     align-items: center;
     span{
-        margin-left: 40x
+        margin-left: 40px
     };
-
-
+    
+    
 `
 
 export const NavStyled = styled.nav`
     display: flex;
     flex-direction: column;
-
     align-items: center;
     height: 100vh;
+    justify-content: space-between;
     background-color: #222D2F;
     color: #fff;
-
-
+    max-width: 300px;
     img{
-        margin: 20px 20px 0px;
-        width:100px
+        width:100px;
     };
     h1{
         font-family: Montserrat;
         font-weight: 600;
         font-size: 25px;
-
     };
     ul{
         display:flex;
         flex-direction: column;
         li{
-            margin: 5px;
+            margin: 5px 5px 10px 5px;
             flex-direction: column;
-            align-items: center;
-            padding-bottom: 10px;
+            font-size: 20px;
+            align-items: flex-start;
         };
     };
     li{
-        list-style: none;
+        list-style: none; 
     };
     span{
         margin:5px;
     };
+    .navegacao{
+        margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+`
+export const Estado = styled.li`
+    display: flex;   
+    li{
+        margin:0 auto;
+    }
+`
+export const Main = styled.main`
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background:  #85282F;
+    main{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+`
+export const Location = styled.div`
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 20px;
+    span{
+        margin: 10px 0px 5px 10px;
+    }
 
 `
-export const Instituicoes = styled.li`
-    display: flex;
+export const Instituicao = styled.ul`
+    margin: 0 auto;
 `
