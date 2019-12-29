@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderStyled, NavStyled, Instituicoes, Aside } from './styles'
-import { GiExitDoor } from 'react-icons/gi'
+import { GoChevronRight } from 'react-icons/go'
 import {FaCircle} from 'react-icons/fa'
 import { GoPerson } from 'react-icons/go'
 import { IoIosListBox,IoIosArrowDown } from 'react-icons/io'
@@ -9,7 +9,7 @@ import { MdLocationOn } from 'react-icons/md'
 export default function StudentSpace() {
     return (
         <>
-            <HeaderStyled><span>Sieve</span><GiExitDoor size="35px" color="fff" /></HeaderStyled>
+            <HeaderStyled><span>Sieve</span><GoChevronRight size="30px" color="fff" /></HeaderStyled>
             <Aside>
             <NavStyled>
                 <div><img src="https://i.imgur.com/wEfFj6B.png" alt="" /></div>
@@ -28,10 +28,10 @@ export default function StudentSpace() {
                     <li><GoPerson /><span>Perfil</span></li>
                     <li><IoIosListBox /><span>Avaliações</span></li>
                     <li><GiBookshelf /><span>Cursos</span></li>
-                </ul>                
+                </ul>
             </NavStyled>
             <div><MdLocationOn color="green"/><span>Rio de Janeiro, 20 Dezembro 2019</span></div>
-            </Aside>  
+            </Aside>
         </>
     );
 }
