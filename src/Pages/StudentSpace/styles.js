@@ -64,12 +64,6 @@ export const NavStyled = styled.nav`
         align-items: center;
 }
 `
-export const Estado = styled.li`
-    display: flex;   
-    li{
-        margin:0 auto;
-    }
-`
 export const Main = styled.main`
     flex: 1;
     display: flex;

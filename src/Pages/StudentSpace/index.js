@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderStyled, NavStyled, Estado, Aside, Main, Location, Instituicao } from './styles'
+import { HeaderStyled, NavStyled, Aside, Main, Location, Instituicao } from './styles'
 import { GiExitDoor, GiBookshelf } from 'react-icons/gi'
 import { FaCircle } from 'react-icons/fa'
 import { GoPerson } from 'react-icons/go'
@@ -14,7 +14,7 @@ export default function StudentSpace() {
             <HeaderStyled><span>Sieve</span><Location><FiClock color="white" /><span>19:49 Rio de Janeiro, 20 Dezembro 2019</span></Location><GiExitDoor size="35px" color="fff" /></HeaderStyled>
             <Aside>
                 <NavStyled>
-                    <div class="navegacao">
+                    <div className="navegacao">
                         <img src="https://i.imgur.com/wEfFj6B.png" alt="" />
                         <h1>José Luciano</h1>
                         <ul>
@@ -23,17 +23,17 @@ export default function StudentSpace() {
                                     Recode Pro <IoIosArrowDown size="10px" />
                                 </li>
                             </Instituicao>
-                            <Estado>
+                            <ul>
                                 <li>
                                     <FaCircle size="10" color="#EBAF15" /><span>Processo seletivo pendente</span>
                                 </li>
-                            </Estado>
+                            </ul>
                         </ul>
                         <ul>
                             <li onClick={()=>setIndex(<h1>perfil</h1>)}><GoPerson size="25px" /><span>Perfil</span></li>
                             <li onClick={()=>setIndex(<h1>Avaliações</h1>)}><IoIosListBox size="25px" /><span>Avaliações</span></li>
                             <li onClick={()=>setIndex(<h1>cursos</h1>)}><GiBookshelf size="25px" /><span>Cursos</span></li>
-                            <li><Link to="/" exact><GiExitDoor size="25px" /><span>Sair</span></Link></li>
+                            <li><Link to="/" ><GiExitDoor size="25px" />Sair</Link></li>
                         </ul>
                     </div>
                 </NavStyled>
