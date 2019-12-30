@@ -1,27 +1,56 @@
 import React from 'react';
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
 import {StyledCarousel,Hr} from './styles'
+
+
+const index_Inicial = 0;
+
 export default function Carousel() {
-  const[index,setIndex] = React.useState(0);
+
+  const[index,setIndex] = React.useState(index_Inicial);
+
+
+  React.useEffect(() =>{
+    const interval = setInterval (() => {
+
+      if(index === images.length - 1){
+        setIndex (index_Inicial)
+      }else{
+        setIndex(index + 1)
+      }
+    }, 3000)
+  return () => clearInterval (interval)
+  }, [index])
+
 
   const images = [
-    {
-      src:
-      "https://i.imgur.com/uj6zeJ1.png"
 
 
-    },
+      "https://i.imgur.com/uj6zeJ1.png",
+
+      "https://i.imgur.com/7NkE0NL.jpg",
+
+      "https://i.imgur.com/55Eh1e9.jpg"
+
+
+
   ];
-  return (<>
+  return (
+  <>
     <StyledCarousel>
       <Gallery
+      style = {{
+        height: '100vh',
+        widht: '100vw',
+        background: 'black'
+      }}
         index={index}
         onRequestChange={i => {
           setIndex(i);
         }}
       >
         {images.map(img => (
-          <GalleryImage objectFit="contain" key={img.src} src={img.src} />
+          <GalleryImage objectFit="contain" key={img} src={img} />
         ))}
       </Gallery>
     </StyledCarousel>

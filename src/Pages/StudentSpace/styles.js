@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Aside = styled.div`
-    display: flex;   
+    display: flex;
 `
 export const HeaderStyled = styled.header`
     display: flex;
@@ -9,14 +9,14 @@ export const HeaderStyled = styled.header`
     color : #fff;
     justify-content: space-between;
     font-family: Molle;
-    background-color: #222D2F; 
+    background-color: #222D2F;
     font-size: 45px;
     align-items: center;
     span{
         margin-left: 40px
     };
-    
-    
+
+
 `
 
 export const NavStyled = styled.nav`
@@ -39,6 +39,7 @@ export const NavStyled = styled.nav`
     ul{
         display:flex;
         flex-direction: column;
+        margin-top: auto;
         li{
             margin: 5px 5px 10px 5px;
             flex-direction: column;
@@ -50,7 +51,7 @@ export const NavStyled = styled.nav`
         };
     };
     li{
-        list-style: none; 
+        list-style: none;
         cursor: pointer;
     };
     span{

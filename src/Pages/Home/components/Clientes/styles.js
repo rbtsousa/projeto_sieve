@@ -6,6 +6,7 @@ border: 1px solid #C4C4C4;
 display:flex;
 justify-content: space-between;
 width: 95%;
+height: 160px;
 margin: 0 auto;
 border-radius: 12px;
 box-sizing: border-box;
@@ -17,7 +18,7 @@ margin-bottom: 10px;
         opacity:0.2
     }
     .senac{
-        margin: 0px 0px 35px 35px
+        margin: 25px 0px 35px 35px
     };
     .firjan{
         margin: 15px 0px 0px 0px

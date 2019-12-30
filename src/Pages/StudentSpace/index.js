@@ -6,8 +6,11 @@ import { GoPerson } from 'react-icons/go'
 import { FiClock } from 'react-icons/fi'
 import { IoIosListBox, IoIosArrowDown } from 'react-icons/io'
 import {Link} from 'react-router-dom'
+import Login from  '../Login/index';
+
+
 export default function StudentSpace() {
-    const[index,setIndex] = React.useState(<h1>home</h1>);
+    const[index,setIndex] = React.useState(<Login/>);
 
     return (
         <>
@@ -41,7 +44,7 @@ export default function StudentSpace() {
                 {index}
             </Main>
               </Aside>
-            
+
         </>
     );
 }

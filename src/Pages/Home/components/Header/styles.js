@@ -20,7 +20,7 @@ export const StyledHeader = styled.div`
           list-style: none;
           font-style: normal;
           font-weight: bold;
-          font-size: 32px;
+          font-size: 28px;
           line-height: 40px;
           text-align: right;
           color: #928D8D;
@@ -32,7 +32,7 @@ export const StyledHeader = styled.div`
         font-family: 'Molle', cursive;
         font-style: normal;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 65px;
         line-height: 50px;
         color: #928D8D;
         opacity: 0.8;
@@ -50,9 +50,10 @@ export const StyledHeader = styled.div`
       height: 50px;
       border-radius: 12px;
       background-color: #ffffff;
+      transition: background 0.4s;
   }
   button:hover{
-      background-color: #4484CE;
+      background: #4484CE;
       color: #ffffff;
   }
 

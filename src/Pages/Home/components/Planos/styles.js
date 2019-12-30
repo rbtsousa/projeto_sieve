@@ -50,11 +50,12 @@ export const PlanosSmall = styled.div`
     width: 150px;
     cursor: pointer;
     background-color: #ffffff;
+    transition: background 0.4s;
 
   }
   button:hover {
     color: #fff;
-    background-color: #4484ce;
+    background: #4484ce;
   }
   hr {
     width: 150px;
@@ -107,10 +108,11 @@ export const PlanosGrand = styled.div`
     width: 150px;
     background-color: #ffffff;
     cursor: pointer;
+    transition: background 0.4s;
   }
   button:hover {
     color: #fff;
-    background-color: #4484ce;
+    background: #4484ce;
   }
   hr {
     width: 150px;

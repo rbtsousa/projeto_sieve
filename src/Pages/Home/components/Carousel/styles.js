@@ -6,6 +6,11 @@ export const StyledCarousel = styled.div`
     height: 70%;
     padding-top:70px;
     margin-bottom: 35px;
+
+    img{
+      width: 2075px;
+      height: 1190px;
+    }
 `;
 export const Hr = styled.hr`
     margin: 0 auto;
