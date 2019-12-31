@@ -9,6 +9,18 @@ export default function Carousel() {
 
   const[index,setIndex] = React.useState(index_Inicial);
 
+  const images = [
+
+
+    "https://i.imgur.com/uj6zeJ1.png",
+
+    "https://i.imgur.com/7NkE0NL.jpg",
+
+    "https://i.imgur.com/55Eh1e9.jpg"
+
+
+
+];
 
   React.useEffect(() =>{
     const interval = setInterval (() => {
@@ -18,23 +30,12 @@ export default function Carousel() {
       }else{
         setIndex(index + 1)
       }
-    }, 3000)
+    }, 5000)
   return () => clearInterval (interval)
   }, [index])
 
 
-  const images = [
 
-
-      "https://i.imgur.com/uj6zeJ1.png",
-
-      "https://i.imgur.com/7NkE0NL.jpg",
-
-      "https://i.imgur.com/55Eh1e9.jpg"
-
-
-
-  ];
   return (
   <>
     <StyledCarousel>
