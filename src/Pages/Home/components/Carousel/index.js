@@ -51,7 +51,7 @@ export default function Carousel() {
         }}
       >
         {images.map(img => (
-          <GalleryImage objectFit="contain" key={img} src={img} />
+          <GalleryImage objectFit="cover" key={img} src={img} />
         ))}
       </Gallery>
     </StyledCarousel>

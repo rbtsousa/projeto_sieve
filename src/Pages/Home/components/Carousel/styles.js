@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const StyledCarousel = styled.div`
     background: black;
     width: 100%;
-    height: 70%;
+    height: 100%;
     padding-top:70px;
     margin-bottom: 35px;
 
