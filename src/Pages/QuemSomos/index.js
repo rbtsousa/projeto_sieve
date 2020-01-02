@@ -1,33 +1,15 @@
 import React from 'react';
+import Header from './components/Header/index';
+import Body from './components/Body/index';
 
-import { SideBar } from './styles';
-import { Cards } from './styles';
+
+
 
 export default function QuemSomos() {
   return (
-  <>
-    <SideBar>
-        <Cards>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-        </Cards>
-    </SideBar>
-  </>
+    <>
+      <Header/>
+      <Body/>
+    </>
   );
 }
