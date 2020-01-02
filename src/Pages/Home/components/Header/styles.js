@@ -51,6 +51,7 @@ export const StyledHeader = styled.div`
       border-radius: 12px;
       background-color: #ffffff;
       transition: background 0.4s;
+      cursor:pointer;
   }
   button:hover{
       background: #4484CE;

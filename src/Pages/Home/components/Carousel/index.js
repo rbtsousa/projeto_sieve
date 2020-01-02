@@ -1,6 +1,6 @@
 import React from 'react';
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
-import {StyledCarousel,Hr} from './styles'
+import {StyledCarousel,Hr} from './styles';
 
 
 const index_Inicial = 0;
