@@ -2,14 +2,13 @@
 ![Sieve](https://i.imgur.com/Ki4XLu6.png)
 
 
-
 # Chegou para automatização de processos seletivos.
    &nbsp;
                 &nbsp;
 # New Features!
 &nbsp;
   - Interações entre páginas concluidas.
-  - Carrosel funcional.
+  - Carrossel funcional.
     &nbsp;
             &nbsp;
                         &nbsp;
@@ -23,7 +22,9 @@
 > como reduzir custos do processo de seleção sem perder a qualidade?
 &nbsp;
         
-    A plataforma sieve chegou com a missão de diminuir os gastos e tempo com processos seletivos extensos, nosso principal objetivo é automatizar todos os processos de modo que toda a seleção seja simplificada por um click.
+   A plataforma sieve chegou com a missão de diminuir os gastos e tempo com processos seletivos extensos, nosso principal objetivo é automatizar todos os processos de modo que toda a seleção seja simplificada por um click.
+   
+&nbsp;
 
 # Tecnologias
 
