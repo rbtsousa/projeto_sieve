@@ -13,8 +13,8 @@ export default function Home() {
       <Carousel />
       <Cards />
       <Clientes />
-      <Planos/>
-      <Footer/>
+      <Planos />
+      <Footer />
     </>
   );
 }
