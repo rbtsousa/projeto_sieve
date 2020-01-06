@@ -1,18 +1,33 @@
 import React from 'react';
-import { Largepanel } from './styles';
+import { Largepanel,BigBox,Footer } from './styles';
 
 export default function Body() {
 
   return (
     <>
     <Largepanel>
-    <h1>Commit Teste</h1>
-    <h1>Commit Teste</h1>
-    <h1>Commit Teste</h1>
-    <h1>Commit Teste</h1>
+      <div>
+      <h1>Sobre Nós</h1>
+      </div>
+      <BigBox>
+          <p>
+            A plataforma sieve surgiu com a idéia de diminuir alem dos custos, o tempo gasto
+            com um processo seletivo para cursos gratuitos.
+          </p>
+          <p>
+            A plataforma sieve surgiu com a idéia de diminuir alem dos custos, o tempo gasto
+            com um processo seletivo para cursos gratuitos.
+          </p>
+          <p>
+            A plataforma sieve surgiu com a idéia de diminuir alem dos custos, o tempo gasto
+            com um processo seletivo para cursos gratuitos.
+          </p>
+      </BigBox>
 
-      <h1>Commit Teste</h1>
     </Largepanel>
+    <Footer>
+      <span> Todos os direitos reservados</span>
+    </Footer>
     </>
   );
 }

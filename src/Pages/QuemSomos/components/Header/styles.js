@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Screen = styled.div`
-  height: 350px;
+  height: 300px;
 `
 export const SideBar = styled.div`
   display: flex;
@@ -36,22 +36,21 @@ export const Cards = styled.div`
       width: 200px;
       height: 225px;
     }
-
-
     img{
 
       display:flex;
       align-items: center;
       margin:0 auto;
       padding-top:4px;
+      border-radius: 50%;
+}
 
 
-    }
     span{
 
       display:flex;
       justify-content:center;
-      margin: 10px;
+      margin: 6px;
       font-size: 12px;
       font-family: Montserrat;
 
@@ -60,11 +59,12 @@ export const Cards = styled.div`
       display:flex;
       justify-content:center;
       font-family: Montserrat;
+      padding-top: 10px;
     }
 
-  }
 
 `;
+
 
 
 
