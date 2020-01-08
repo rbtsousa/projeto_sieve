@@ -17,7 +17,7 @@ margin-bottom: 10px;
     hr{
         opacity:0.2
     }
-    .senac{
+    .ecotrash{
         margin: 25px 0px 35px 35px
     };
     .firjan{

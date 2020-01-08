@@ -2,8 +2,7 @@ import React from 'react';
 import { ContainerLogin, LoginMenu, ContainerImg, Formulario, Inputs, Realysub } from './styles';
 import { GoPerson } from 'react-icons/go';
 import { FaLock } from 'react-icons/fa';
-
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -18,7 +17,7 @@ export default function LoginCard() {
             <img src="https://i.imgur.com/Aaeevvn.png" alt="logo-sieve" />
           </ContainerImg>
           <Formulario>
-            <form>
+            <form onSubmit=''>
               <Inputs>
                 <GoPerson size="28px" /> <input type="text" name="name" />
               </Inputs>
@@ -38,7 +37,7 @@ export default function LoginCard() {
               <br />
               <br />
               <Realysub>
-                <input type="submit" value="Enviar" />
+                <Link to="/areadoaluno"><input type="submit" value="Enviar" /></Link>
               </Realysub>
             </form>
           </Formulario>

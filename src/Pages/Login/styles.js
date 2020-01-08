@@ -34,7 +34,7 @@ export const Formulario = styled.div`
   justify-content: center;
   padding-top: 40px;
 
-input{
+button{
 
   border: 1px solid #9A9696;
   border-radius: 4.5px;

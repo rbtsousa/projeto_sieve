@@ -14,7 +14,7 @@ export default function Carousel() {
 
     "https://i.imgur.com/uj6zeJ1.png",
 
-    "https://i.imgur.com/7NkE0NL.jpg",
+    "https://i.imgur.com/vDyzWQ8.jpg",
 
     "https://i.imgur.com/55Eh1e9.jpg"
 

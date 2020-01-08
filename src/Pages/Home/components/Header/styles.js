@@ -25,6 +25,11 @@ export const StyledHeader = styled.div`
           text-align: right;
           color: #928D8D;
           opacity: 0.8;
+        >a{
+            text-decoration: none;
+            color:#928D8D;
+
+        }
       }
   }
   span{
@@ -52,6 +57,10 @@ export const StyledHeader = styled.div`
       background-color: #ffffff;
       transition: background 0.4s;
       cursor:pointer;
+      a{
+          text-decoration: none;
+          color:#A8A4A4;
+      }
   }
   button:hover{
       background: #4484CE;
