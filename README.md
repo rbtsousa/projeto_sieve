@@ -6,8 +6,11 @@
                 &nbsp;
 # New Features!
 &nbsp;
-  - Interações entre páginas concluidas.
-  - Carrossel funcional.
+  - Interações entre páginas **concluidas**.
+  - Carrossel **funcional**.
+  - Área do aluno **funcional**
+  - Form social em *produção*
+  
     &nbsp;
             &nbsp;
                         &nbsp;
@@ -46,10 +49,7 @@ A plataforma **Sieve** foi desenvolvida pelo grupo II do curso recodePro,que tem
 | ------ | ------ |
 | RobertoLuis | https://github.com/rbtsousa
 | José Luciano | https://github.com/Luciannodev
-| Glaziele Castilho |  |
-| Guilherme Rocha |  |
-| Anna |  |
-| Evelin |  |
+
 
 
 ### Contribuir ?
