@@ -69,7 +69,6 @@ export const Main = styled.main`
     flex: 1;
     display: flex;
     flex-direction: column;
-    background:  #85282F;
     height: 100vh;
     main{
         display: flex;
