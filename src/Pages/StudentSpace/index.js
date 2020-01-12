@@ -6,10 +6,11 @@ import { GoPerson } from 'react-icons/go'
 import { FiClock } from 'react-icons/fi'
 import { IoIosListBox, IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom'
+import Cursos from './Components/Cursos/index'
 
 
 export default function StudentSpace() {
-    const [index, setIndex] = React.useState();
+    const [index, setIndex] = React.useState(<Cursos/>);
 
     return (
         <>
@@ -34,7 +35,7 @@ export default function StudentSpace() {
                         <ul>
                             <li onClick={() => setIndex(<h1>perfil</h1>)}><GoPerson size="25px" /><span>Perfil</span></li>
                             <li onClick={() => setIndex(<h1>Avaliações</h1>)}><IoIosListBox size="25px" /><span>Avaliações</span></li>
-                            <li onClick={() => setIndex(<h1>cursos</h1>)}><GiBookshelf size="25px" /><span>Cursos</span></li>
+                            <li onClick={() => setIndex()}><GiBookshelf size="25px" /><span>Cursos</span></li>
                             <li><Link to="/" ><GiExitDoor size="25px" />Sair</Link></li>
                         </ul>
                     </div>

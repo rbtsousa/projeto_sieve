@@ -6,7 +6,7 @@ export default function Planos() {
              <Title>Planos para Empresa</Title>
             <StyledPlanos>  
                 <PlanosSmall>
-                    <img src= "https://i.imgur.com/mIeS6qG.png"alt=''/>
+                    <img src= "https://i.imgur.com/NHRM48j.png"alt=''/>
                     <hr color= "#C4C4C4"></hr>
                     <span>Starter</span>
                     <ul>
