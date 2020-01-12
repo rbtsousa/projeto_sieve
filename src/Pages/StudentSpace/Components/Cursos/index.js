@@ -8,7 +8,7 @@ export default function Cursos() {
             <ul>
                 <li>
                     <Curso>
-                        <div><img src="https://i.imgur.com/xqwM4OD.png" alt="nome curso" /><span>Recode</span></div>
+                        <div><img src="https://i.imgur.com/w9Xi7YB.png" alt="nome curso" /><span>Recode</span></div>
                         <ul>
                             <span>Recode Pro</span>
                             <li>Inscrições abertas</li>
@@ -18,7 +18,7 @@ export default function Cursos() {
                 </li>
                 <li>
                     <Curso>
-                        <div><img src="https://i.imgur.com/xqwM4OD.png" alt="nome curso" /><span>Recode</span></div>
+                        <div><img src="https://i.imgur.com/w9Xi7YB.png" alt="nome curso" /><span>Recode</span></div>
                         <ul>
                             <span>Recode Pro</span>
                             <li>Inscrições abertas</li>
@@ -28,7 +28,7 @@ export default function Cursos() {
                 </li>
                 <li>
                     <Curso>
-                        <div><img src="https://i.imgur.com/xqwM4OD.png" alt="nome curso" /><span>Recode</span></div>
+                        <div><img src="https://i.imgur.com/w9Xi7YB.png" alt="nome curso" /><span>Recode</span></div>
                         <ul>
                             <span>Recode Pro</span>
                             <li>Inscrições abertas</li>
@@ -60,7 +60,7 @@ Confira abaixo os requisitos e as etapas do processo seletivo! A lista final dos
                     <li>Desafio: Prova de logica de programação</li>
                 </ul>
 
-       <div>
+       <div className="Submetedores">
            <div><img src="https://i.imgur.com/In782Oq.png" alt="entrevista"/><span>Marcar Entrevista</span></div>
            
            <div><img src="https://i.imgur.com/TzjAvpB.png" alt="Prova"/><span>Fazer Prova</span></div>

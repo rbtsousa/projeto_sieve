@@ -91,7 +91,6 @@ export const Conteudo = styled.div`
         div{
             border: 2px solid green;
             display: flex;
-            margin-top: 30px;
             img{
                 width: 50px;
                 margin: 15px;
@@ -100,5 +99,8 @@ export const Conteudo = styled.div`
                 display: flex;
                 align-items: center
             }
+        }
+        .Submetedores{
+            margin-top: 100px;
         }
 `
