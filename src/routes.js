@@ -4,7 +4,7 @@ import Home from './Pages/Home/index';
 import Login from './Pages/Login/index';
 import QuemSomos from './Pages/QuemSomos/index'
 import StudentSpace from './Pages/StudentSpace/index';
-
+import Formulario from './Pages/Formulario/index';
 
 
 export default function Routes() {
@@ -15,6 +15,7 @@ export default function Routes() {
         <Route path="/login"  component={Login}/>
         <Route path="/areadoaluno"  component={StudentSpace}/>
         <Route path="/QuemSomos"  component={QuemSomos}/>
+        <Route path="/form"  component={Formulario}/>
         </Switch>
     </BrowserRouter>
   );

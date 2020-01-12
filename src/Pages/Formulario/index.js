@@ -1,11 +1,11 @@
 import React from 'react';
-import Form from './Form/index'
+import ReactForm from './ReactForm/index'
 
 
 export default function Formulario() {
   return (
     <>
-      <Form/>
+      <ReactForm/>
 
     </>
   );
