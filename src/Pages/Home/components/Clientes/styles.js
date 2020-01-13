@@ -18,13 +18,14 @@ margin-bottom: 10px;
         opacity:0.2
     }
     .ecotrash{
-        margin: 25px 0px 35px 35px
+        margin: 25px 0px 25px 0px;
+        padding-top: 10px;
     };
     .firjan{
-        margin: 15px 0px 0px 0px
+        margin: 15px 0px 0px 10px;
     }
     .recode{
-        margin: 15px 25px 0px 0px
+        margin: 15px 25px 0px 0px;
     }
 `
 export const P = styled.div`

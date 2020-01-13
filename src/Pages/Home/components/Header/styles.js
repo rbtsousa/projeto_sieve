@@ -56,12 +56,14 @@ export const StyledHeader = styled.div`
       border-radius: 12px;
       background-color: #ffffff;
       transition: background 0.4s;
-      cursor:pointer;
+      
       a{
           text-decoration: none;
           color:#A8A4A4;
       }
-  }
+      a:hover{
+        color: #ffff;
+      }  }
   button:hover{
       background: #4484CE;
       color: #ffffff;

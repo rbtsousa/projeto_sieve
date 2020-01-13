@@ -16,7 +16,7 @@ export default function Carousel() {
 
     "https://i.imgur.com/vDyzWQ8.jpg",
 
-    "https://i.imgur.com/55Eh1e9.jpg"
+    "https://i.imgur.com/3ZMjnND.jpg"
 
 
 
@@ -42,9 +42,8 @@ export default function Carousel() {
       <div className="Ajuste"></div>
         <Gallery
           style={{
-            height: '100vh',
             widht: '100vw',
-            background: 'black'
+            background: 'white'
           }}
           index={index}
           onRequestChange={i => {
