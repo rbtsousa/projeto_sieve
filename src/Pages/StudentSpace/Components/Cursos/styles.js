@@ -86,6 +86,7 @@ export const Conteudo = styled.div`
             margin: 0 auto;
             td{
                 border: 2px solid green;
+                
             }
         }
         div{
@@ -102,5 +103,8 @@ export const Conteudo = styled.div`
         }
         .Submetedores{
             margin-top: 100px;
+            div{
+                cursor:pointer;
+            }
         }
 `
