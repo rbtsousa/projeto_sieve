@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
     h2{
         color:#A5A1A1;
-        
+
     }
     section{
       display: flex;
@@ -103,13 +103,14 @@ export const Foto = styled.div`
     border: none;
     font-size: 20px;
   }
-  
+
 `;
 export const Seguranca = styled.div`
     font-size: 20px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    
   input{
           margin: 5px;
           height: 30px;
