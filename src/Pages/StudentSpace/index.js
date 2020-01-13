@@ -7,10 +7,11 @@ import { FiClock } from 'react-icons/fi'
 import { IoIosListBox, IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import Cursos from './Components/Cursos/index'
+import Perfil from './Components/Perfil/index'
 
 
 export default function StudentSpace() {
-    const [index, setIndex] = React.useState(<Cursos/>);
+    const [index, setIndex] = React.useState(<Perfil/>);
 
     return (
         <>
@@ -33,10 +34,10 @@ export default function StudentSpace() {
                             </ul>
                         </ul>
                         <ul>
-                            <li onClick={() => setIndex(<h1>perfil</h1>)}><GoPerson size="25px" /><span>Perfil</span></li>
+                            <li onClick={() => setIndex(<Perfil/>)}><GoPerson size="25px" /><span>Perfil</span></li>
                             <li onClick={() => setIndex(<h1>Avaliações</h1>)}><IoIosListBox size="25px" /><span>Avaliações</span></li>
-                            <li onClick={() => setIndex()}><GiBookshelf size="25px" /><span>Cursos</span></li>
-                            <li><Link to="/" ><GiExitDoor size="25px" />Sair</Link></li>
+                            <li onClick={() => setIndex(<Cursos/>)}><GiBookshelf size="25px" /><span>Cursos</span></li>
+                            <li><Link to="/" ><GiExitDoor size="25px" /><span>Sair</span></Link></li>
                         </ul>
                     </div>
                 </NavStyled>

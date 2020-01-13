@@ -55,7 +55,7 @@ export const NavStyled = styled.nav`
         cursor: pointer;
     };
     span{
-        margin:5px;
+        margin-left: 10px;
     };
     .navegacao{
         margin-top: 45px;

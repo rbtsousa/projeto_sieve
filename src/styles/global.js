@@ -10,4 +10,7 @@ export default createGlobalStyle`
     html, body, #root{
         min-height:100%;
     }
+    button{
+        cursor: pointer;
+    }
 `

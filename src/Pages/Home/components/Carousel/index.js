@@ -37,8 +37,9 @@ export default function Carousel() {
 
 
   return (
-    <>
+    <>  
       <StyledCarousel>
+      <div className="Ajuste"></div>
         <Gallery
           style={{
             height: '100vh',
