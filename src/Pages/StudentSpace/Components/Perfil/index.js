@@ -51,8 +51,8 @@ export default function Perfil() {
                     <span>Email</span><input />
                 </div>
             </section>
-            <button className="Salvar">Salvar Alterações</button>     
-            <h2>Segunrança</h2>
+            <button className="Salvar">Salvar Alterações</button>
+            <h2>Segurança</h2>
             <hr></hr>
             <Seguranca>
                 <div>
