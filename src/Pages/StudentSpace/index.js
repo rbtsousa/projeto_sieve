@@ -8,10 +8,11 @@ import { IoIosListBox, IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import Cursos from './Components/Cursos/index'
 import Perfil from './Components/Perfil/index'
+import Avaliações from './Components/Avaliacoes/index'
 
 
 export default function StudentSpace() {
-    const [index, setIndex] = React.useState(<Perfil/>);
+    const [index, setIndex] = React.useState(<Avaliações/>);
 
     return (
         <>
@@ -35,7 +36,7 @@ export default function StudentSpace() {
                         </ul>
                         <ul>
                             <li onClick={() => setIndex(<Perfil/>)}><GoPerson size="25px" /><span>Perfil</span></li>
-                            <li onClick={() => setIndex(<h1>Avaliações</h1>)}><IoIosListBox size="25px" /><span>Avaliações</span></li>
+                            <li onClick={() => setIndex(<Avaliações/>)}><IoIosListBox size="25px" /><span>Avaliações</span></li>
                             <li onClick={() => setIndex(<Cursos/>)}><GiBookshelf size="25px" /><span>Cursos</span></li>
                             <li><Link to="/" ><GiExitDoor size="25px" /><span>Sair</span></Link></li>
                         </ul>
