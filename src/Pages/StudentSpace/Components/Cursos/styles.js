@@ -3,10 +3,11 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
+    overflow-x: scroll;
     >ul{
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow-y: scroll;
         height: 100vh;
         padding: 5px;
         justify-content: space-between;
@@ -72,6 +73,7 @@ export const Conteudo = styled.div`
         border-radius: 12px;
         border: 1px solid #222D2F;
         text-align: center;
+        height: 100vh;
         >p{
             text-align: justify;
             margin: 30px;
