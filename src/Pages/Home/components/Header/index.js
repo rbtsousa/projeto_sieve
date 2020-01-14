@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledHeader, HR } from "./styles.js";
 import { Link } from "react-router-dom";
-export default function Header() {
+export default function Header({onLogin}) {
   return (
     <StyledHeader>
       <span>Sieve</span>
@@ -14,7 +14,7 @@ export default function Header() {
         <li>Planos</li>
       </ul>
       <HR color="#C4C4C4"></HR>
-      <Link to='/login'><button>Login</button></Link>
+      <button onClick={onLogin}>Login</button>
     </StyledHeader>
   );
 }
