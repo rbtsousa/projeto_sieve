@@ -70,12 +70,6 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
     height: 100vh;
-    main{
-        display: flex;
-        flex: 1;
-        align-items: center;
-        justify-content: center;
-    }
 `
 export const Location = styled.div`
     margin-bottom: 15px;

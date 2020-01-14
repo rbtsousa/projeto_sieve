@@ -12,7 +12,7 @@ import Avaliacoes from './Components/Avaliacoes/index'
 
 
 export default function StudentSpace() {
-    const [index, setIndex] = React.useState(<Avaliacoes/>);
+    const [index, setIndex] = React.useState(<Perfil/>);
 
     return (
         <>

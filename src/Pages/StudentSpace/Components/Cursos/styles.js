@@ -3,12 +3,17 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    overflow-x: scroll;
+    overflow-y: scroll;
     >ul{
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 5px;
+        border: 1px solid  gray;
         display: flex;
         flex-direction: column;
-        overflow-y: scroll;
-        height: 100vh;
+        overflow-y: auto;
+        height: 99%;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
         padding: 5px;
         justify-content: space-between;
      >li{
