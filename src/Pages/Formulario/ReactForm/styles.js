@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
   max-width: 900px;
-  height: 570px;
+  height: 500px;
   background: #fff;
   margin: 50px auto;
   box-shadow: 0 0 20px rgba(72,98,85, 0.6);
@@ -12,6 +12,7 @@ export const Container = styled.div`
 
 
 p{
+  font-family: Montserrat;
   text-align: center;
   letter-spacing: 2px;
   font-size: 38px;
@@ -33,15 +34,39 @@ p{
 }
 
 .login .input{
+
   width:260px;
   height:30px;
+}
+.login{
+  display:flex;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+label{
+  font-family: Montserrat;
+  font-weight:bold;
+  font-size: 16px;
   margin: 5px;
 
 
 }
-.login{
-  display:flex;
+select{
+  width: 120px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+  background:transparent;
 
+
+}
+select:focus{
+  border: 2px solid #4484CE;
 }
 
 .login .input:last-child{
