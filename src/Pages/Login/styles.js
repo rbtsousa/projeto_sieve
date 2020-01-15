@@ -2,16 +2,14 @@ import styled from 'styled-components'
 
 
 export const ContainerLogin = styled.div`
+
 `
 
 
 export const LoginMenu = styled.div`
+margin: 5px;
 
-border-radius:26px;
-width: 550px;
-height: 400px;
-background-color: #fff;
-margin: 0 auto;
+
 `
 
 
@@ -58,12 +56,14 @@ input{
   width: 360px;
   margin-left: 10px;
   height: 28px;
+
 }
 
 `
 export const Realysub = styled.div`
-display:flex;
+display:block;
 justify-content: center;
+
 
 input{
   width: 400px;

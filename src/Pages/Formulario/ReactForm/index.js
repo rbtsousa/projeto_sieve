@@ -22,7 +22,7 @@ export default function ReactForm() {
       <label htmlFor="">Endereço<input type="text" placeholder="Digite Endereço" class="input"/></label>
     </div>
     <div class="login">
-      <label htmlFor="estado">Endereço
+      <label htmlFor="estado">Estado
           <select name="estado" id="estado">
 
               <option value="N">Selecione</option>

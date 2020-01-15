@@ -10,8 +10,7 @@ export default function LoginCard() {
   return (
     <>
 
-
-      <ContainerLogin>
+      
         <LoginMenu>
           <ContainerImg>
             <img src="https://i.imgur.com/Aaeevvn.png" alt="logo-sieve" />
@@ -38,11 +37,12 @@ export default function LoginCard() {
               <br />
               <Realysub>
                 <Link to="/areadoaluno"><input type="submit" value="Enviar" /></Link>
+
               </Realysub>
             </form>
           </Formulario>
         </LoginMenu>
-      </ContainerLogin>
+
     </>
   );
 }

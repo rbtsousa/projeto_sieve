@@ -8,14 +8,14 @@ import Footer from './components/Footer/index';
 import LoginCard from '../Login/index'
 import { Component } from 'react';
 import Modal from 'react-modal'
-import { Fade } from '@material-ui/core'
+//import { Fade } from '@material-ui/core'
 
 export default class Home extends Component {
   state = {
     modalIsOpen: false,
     customStyles: {
       content: {
-        top: '50%',
+        top: '58%',
         left: '50%',
         right: 'auto',
         bottom: 'auto',
