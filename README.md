@@ -49,6 +49,7 @@ A plataforma **Sieve** foi desenvolvida pelo grupo II do curso recodePro,que tem
 | ------ | ------ |
 | RobertoLuis | https://github.com/rbtsousa
 | José Luciano | https://github.com/Luciannodev
+| Glaziele Castilho  | https://github.com/GlazieleCastilho
 
 
 
