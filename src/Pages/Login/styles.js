@@ -56,24 +56,46 @@ input{
   width: 360px;
   margin-left: 10px;
   height: 28px;
+  border: 1px solid #9A9696;
+  border-radius:5px;
 
 }
 
 `
 export const Realysub = styled.div`
-display:block;
+display:flex;
 justify-content: center;
 
 
 input{
-  width: 400px;
+  width: 180px;
   height: 45px;
+  margin: 5px;
   color: #fff;
   font-size: 14px;
   font-weight:bold;
-  background-color:#4484CE;
+  background-color:#4894CE;
+  border-radius: 6px;
   box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
+input.Submit{
+  color:#000;
+  background-color:#fff;
+  font-family: Montserrat;
+  
+}
+input.Submit:hover{
+  background-color: #4484CE;
+  color: #fff;
+}
+input.Register{
+  font-family: Montserrat;
+
+}
+input.Register:hover{
+  background-color: #4484CE;
+}
 
 `
+//
