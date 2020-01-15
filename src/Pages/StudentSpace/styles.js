@@ -20,6 +20,7 @@ export const HeaderStyled = styled.header`
 `
 
 export const NavStyled = styled.nav`
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
