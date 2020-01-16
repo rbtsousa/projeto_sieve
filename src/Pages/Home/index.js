@@ -8,6 +8,7 @@ import Footer from './components/Footer/index';
 import LoginCard from '../Login/index'
 import { Component } from 'react';
 import Modal from 'react-modal'
+
 //import { Fade } from '@material-ui/core'
 
 export default class Home extends Component {
@@ -27,6 +28,7 @@ export default class Home extends Component {
 
   openModal = () => {
     this.setState({ modalIsOpen: true })
+
   }
   closeModal = () => {
     this.setState({ modalIsOpen: false })

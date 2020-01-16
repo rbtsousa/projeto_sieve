@@ -14,12 +14,14 @@ margin: 5px;
 
 
 export const ContainerImg = styled.div`
+
 display:flex;
 justify-content: center;
 padding-top: 15px;
 
 `
 export const Formulario = styled.div`
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +36,7 @@ button{
 
 }
 a{
+
   display:flex;
   text-decoration: none;
   font-family: Montserrat;
@@ -49,6 +52,7 @@ span{
 `
 
 export const Inputs = styled.div`
+
 display: flex;
 justify-content: space-between;
 
@@ -80,10 +84,10 @@ input{
   cursor: pointer;
 }
 input.Submit{
-  color:#000;
+  color: #9A9696;
   background-color:#fff;
   font-family: Montserrat;
-  
+
 }
 input.Submit:hover{
   background-color: #4484CE;
@@ -94,7 +98,7 @@ input.Register{
 
 }
 input.Register:hover{
-  background-color: #4484CE;
+  background-color: #4984CE;
 }
 
 `

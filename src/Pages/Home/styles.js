@@ -8,3 +8,4 @@ export const LoginStyled = styled.div`
     left:30%;
     z-index: 1;
 `
+

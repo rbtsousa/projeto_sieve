@@ -36,7 +36,7 @@ export default function LoginCard() {
               <br />
               <br />
               <Realysub>
-                <Link to="/areadoaluno"><input  className="Submit" type="submit" value="Enviar" /></Link>
+                <Link to="/areadoaluno"><input  className="Submit" type="submit" value="Entrar" /></Link>
                 <Link to="/form"><input   className="Register" type="submit" value="Cadastro" /></Link>
               </Realysub>
             </form>
