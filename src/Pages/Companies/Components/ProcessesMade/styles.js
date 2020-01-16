@@ -73,6 +73,8 @@ export const Curso = styled.div`
      }
 `
 export const Conteudo = styled.div`
+        display: flex;
+        justify-content: center;
         background: #FFFFFF;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
         border-radius: 12px;

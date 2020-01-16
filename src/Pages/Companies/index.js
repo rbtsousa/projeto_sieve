@@ -9,7 +9,7 @@ import NewProcess from './Components/NewProcess/index'
 import ProcessMade from './Components/ProcessesMade/index'
 
 export default function Companies() {
-    const [index, setIndex] = React.useState(<ProcessMade/>);
+    const [index, setIndex] = React.useState(<Perfil/>);
 
     return (
         <>
