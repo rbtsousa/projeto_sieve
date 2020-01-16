@@ -71,6 +71,7 @@ export const Foto = styled.div`
     font-size: 25px;
   }
   >img{
+      border: 2px solid #A5A1A1;
       margin-top: 15px;
       margin-right: 20px;
       width: 150px
