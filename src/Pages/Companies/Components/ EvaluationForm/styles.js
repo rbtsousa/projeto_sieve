@@ -127,8 +127,6 @@ textarea:focus{
   border: 2px solid #4484CE;
 }
 
-
-
 `
 export const Button = styled.button`
   display:flex;

@@ -83,23 +83,28 @@ input{
   cursor: pointer;
 }
 input.Submit{
-  color: #9A9696;
-  background-color:#fff;
+  color: #fff;
+  background-color:#007BFF;
   font-family: Montserrat;
   font-size:14px;
+  font-weight:bold;
+  border:none;
+
 
 }
 input.Submit:hover{
-  background-color: #4484CE;
+  background-color: #0069D9;
   color: #fff;
 }
 input.Register{
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 14px;
+  background-color: #DC3545;
+  border:none;
 
 }
 input.Register:hover{
-  background-color: #4984CE;
+  background-color:#C82333;
 }
 
 `
