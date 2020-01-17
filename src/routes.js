@@ -6,6 +6,7 @@ import QuemSomos from './Pages/QuemSomos/index'
 import StudentSpace from './Pages/StudentSpace/index';
 import Formulario from './Pages/Formulario/index';
 import Companies from './Pages/Companies/index';
+import EvaluationForm from './Pages/Companies/Components/ EvaluationForm'
 
 export default function Routes() {
   return (
@@ -17,6 +18,7 @@ export default function Routes() {
         <Route path="/areadaempresa"  component={Companies}/>
         <Route path="/QuemSomos"  component={QuemSomos}/>
         <Route path="/form"  component={Formulario}/>
+        <Route path="/EvaForm"  component={EvaluationForm}/>
         </Switch>
     </BrowserRouter>
   );

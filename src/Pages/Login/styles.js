@@ -80,13 +80,13 @@ input{
   font-weight:bold;
   background-color:#4894CE;
   border-radius: 6px;
-  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 input.Submit{
   color: #9A9696;
   background-color:#fff;
   font-family: Montserrat;
+  font-size:14px;
 
 }
 input.Submit:hover{
@@ -95,6 +95,7 @@ input.Submit:hover{
 }
 input.Register{
   font-family: Montserrat;
+  font-size: 16px;
 
 }
 input.Register:hover{
