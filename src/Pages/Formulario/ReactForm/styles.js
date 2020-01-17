@@ -62,8 +62,11 @@ p{
   border-radius: 4px;
   margin: 0 auto;
   color: #fff;
+  outline:none;
+  font-weight:bold;
   cursor: pointer;
   margin-top: 10px;
+  padding-bottom: 5px;
 
 }
 .btn:hover{
@@ -76,13 +79,13 @@ p{
   height: 42px;
   line-height: 50px;
   text-align: center;
-  font-weight:bold;
   font-family: Montserrat;
   border-radius: 4px;
   margin: 0 auto;
   color: #fff;
   cursor: pointer;
   margin-top: 10px;
+  padding-bottom: 5px;
 
 }
 
@@ -98,7 +101,8 @@ export const Button = styled.div`
     justify-items:center;
     text-align:center;
     margin:10px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight:bold;
     font-family: Montserrat;
   }
   .btn2{
@@ -106,7 +110,8 @@ export const Button = styled.div`
     justify-items:center;
     text-align:center;
     margin:10px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight:bold;
     font-family: Montserrat;
   }
 `

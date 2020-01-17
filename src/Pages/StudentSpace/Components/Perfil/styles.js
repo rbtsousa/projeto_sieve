@@ -56,7 +56,7 @@ export const Container = styled.div`
       border-radius: 5px;
       min-height: 40px;
       border: none;
-      font-size: 21px;
+      font-size: 16px;
     }
     button{
     color: white;
@@ -65,7 +65,8 @@ export const Container = styled.div`
     width: 120px;
     height: 35px;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight:bold;
     align-self: center;
     }
 `;
@@ -93,8 +94,11 @@ export const Foto = styled.div`
     color: rgba(0, 0, 0, 0.29);
     font-family: Merriweather Sans;
     font-size: 16px;
+    font-weight:bold;
+    color:#fff;
   }
   input{
+
     margin: 5px 10px 0px 0px;
     height: 35px;
     border-radius: 5px;
@@ -105,6 +109,9 @@ export const Foto = styled.div`
     box-sizing: border-box;
 
   }
+  input:focus{
+    border: 2px solid #4484CE;
+}
   .Altera{
     margin-top: 15px;
     color: white;
@@ -113,12 +120,13 @@ export const Foto = styled.div`
     width: 120px;
     height: 42px;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight:bold;
   }
 
 `;
 export const Seguranca = styled.div`
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -130,7 +138,7 @@ export const Seguranca = styled.div`
       height: 30px;
       padding: 20px;
       box-sizing: border-box;
-      margin: 5px 0px 16px 10px;
+      margin: 5px 0px 16px 15px;
       border: 2px solid #e9eaea;
       font-size: 14px;
       border-radius: 5px;
@@ -148,7 +156,11 @@ export const Seguranca = styled.div`
     width: 120px;
     height: 42px;
     border: none;
-    font-size: 20px;
-    margin: 10px 0px 0px 10px;
+    font-size: 16px;
+    font-weight:bold;
+    margin: 4px 0px 0px 10px;
+  }
+  span{
+    padding-left: 18px;
   }
 `

@@ -44,6 +44,7 @@ export const StyledHeader = styled.div`
         padding: 30px;
   }
   button{
+    
       margin: 30px;
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
@@ -56,7 +57,8 @@ export const StyledHeader = styled.div`
       border-radius: 12px;
       background-color: #ffffff;
       transition: background 0.4s;
-      
+      outline:none;
+
       a{
           text-decoration: none;
           color:#A8A4A4;

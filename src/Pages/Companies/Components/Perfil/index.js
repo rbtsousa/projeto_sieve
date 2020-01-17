@@ -19,13 +19,13 @@ export default function Perfil() {
             </Foto>
             <section>
                 <div>
-                    <span>Nome</span><input className="Nome" />
+                    <span>Nome da instituição </span><input className="Nome" />
                 </div>
                 <div>
-                    <span>Data nascimento</span><input />
+                    <span>Inicio do processo</span><input />
                 </div>
                 <div>
-                    <span>Sexo</span><input />
+                    <span>CNPJ</span><input />
                 </div>
             </section>
             <section>
@@ -34,10 +34,10 @@ export default function Perfil() {
 
                 </div>
                 <div>
-                    <span>Escolaridade</span><input className="Escolaridade" />
+                    <span>Cidade</span><input className="Escolaridade" />
                 </div>
                 <div>
-                    <span>Cidade</span><input />
+                    <span>Escolaridade</span><input />
                 </div>
             </section>
             <section>
@@ -61,7 +61,7 @@ export default function Perfil() {
                 <div>
                     <span>Senha Nova</span><input />
                 </div>
-                <button>Alterar</button>
+                <button className="Altera">Alterar</button>
             </Seguranca>
         </Container>
     );
