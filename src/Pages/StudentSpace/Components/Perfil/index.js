@@ -61,7 +61,7 @@ export default function Perfil() {
                 <div>
                     <span>Senha Nova</span><input />
                 </div>
-                <button>Alterar</button>
+                <button className="Altera">Alterar</button>
             </Seguranca>
         </Container>
     );
