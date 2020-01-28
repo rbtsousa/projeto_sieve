@@ -2,8 +2,11 @@ import styled from 'styled-components'
 
 export const ContainerCards = styled.div`
     display: flex;
+    max-width: 1570px;
     margin: 30px;
+    flex-direction:row;
     justify-content: space-between;
+    margin:0 auto;
     flex-wrap: wrap;
 
     a{

@@ -4,7 +4,7 @@ export default function Planos() {
     return (
         <>
              <Title>Planos para Empresa</Title>
-            <StyledPlanos>  
+            <StyledPlanos>
                 <PlanosSmall>
                     <img src= "https://i.imgur.com/NHRM48j.png"alt=''/>
                     <hr color= "#C4C4C4"></hr>
@@ -24,7 +24,6 @@ export default function Planos() {
                         <li>Avaliação de perfil</li>
                         <li>Suporte 24hrs</li>
                         <li>Avaliação Técnica</li>
-                        <li>Suporte 24 horas</li>
                         <li>Historico do Candidato</li>
                         <li>Entrevistas</li>
                         <li>Sem limites de Candidatos</li>
