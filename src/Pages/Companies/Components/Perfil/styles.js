@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  overflow-y: auto;
   font-family: Merriweather Sans;
   padding: 30px;
   display: flex;

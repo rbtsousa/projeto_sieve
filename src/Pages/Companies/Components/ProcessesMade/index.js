@@ -49,8 +49,8 @@ export default function ProcessesMade() {
                     <tr>
                         <td>1</td>
                         <td>Jose Luciano Xavier Junior</td>
-                        <td><a href="#">Detalhes</a></td>
-                        <td><label name="Aprovado">Aprovado</label><input label="Aprovado" type="checked" type="radio"></input></td>
+                        <td><a href="www.google.com">Detalhes</a></td>
+                        <td><label name="Aprovado">Aprovado</label><input label="Aprovado"  type="radio"></input></td>
                     </tr>
                     </tbody>
                 </table>

@@ -79,7 +79,7 @@ export const Conteudo = styled.div`
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
         border-radius: 12px;
         border: 1px solid #222D2F;
-        height: 100vh;
+        height: 95vh;
 
         div{
             border: 2px solid green;

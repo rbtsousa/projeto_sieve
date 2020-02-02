@@ -94,7 +94,7 @@ export const Main = styled.main`
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    overflow-y: auto;
 `
 export const Location = styled.div`
     margin-bottom: 15px;

@@ -12,9 +12,6 @@ export const HeaderStyled = styled.header`
     background-color: #222D2F;
     font-size: 45px;
     align-items: center;
-    span{
-        margin-left: 40px
-    };
 
 
 `
@@ -70,7 +67,8 @@ export const Main = styled.main`
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    max-width: 100%;
+    overflow-x: auto;
 `
 export const Location = styled.div`
     margin-bottom: 15px;

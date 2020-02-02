@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    overflow-y: scroll;
     >ul{
         border-radius: 5px;
         margin-top: 20px;
@@ -12,10 +11,10 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         overflow-y: auto;
-        height: 99%;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
         padding: 5px;
         justify-content: space-between;
+        height: 100%;
      >li{
         font-family: Montserrat;
         margin: 10px;
@@ -78,7 +77,7 @@ export const Conteudo = styled.div`
         border-radius: 12px;
         border: 1px solid #222D2F;
         text-align: center;
-        height: 100vh;
+        height: 100%;
         >p{
             text-align: justify;
             margin: 30px;

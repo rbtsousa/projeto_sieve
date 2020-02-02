@@ -4,6 +4,8 @@ export const Container = styled.div`
   overflow-y: auto;
   font-family: Merriweather Sans;
   padding: 30px;
+  max-width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
     h2{
