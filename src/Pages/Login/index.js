@@ -1,29 +1,43 @@
-import React from 'react';
-import {  LoginMenu, ContainerImg, Formulario, Inputs, Realysub } from './styles';
+import React,{useState} from 'react';
+import {  LoginMenu, ContainerImg, Formulario, Inputs, Realysub,ContainerLogin } from './styles';
 import { GoPerson } from 'react-icons/go';
 import { FaLock } from 'react-icons/fa';
 import {Link} from 'react-router-dom'
+import api from '../../services/api'
 
 
-
-export default function LoginCard() {
+export default function LoginCard(history) {
+  const [email,setEmail] = useState('digite seu email')
+  const[password,setPassword] = useState('digite seu password')
+  
+  
+  async function handleSubmit(e){
+      e.preventDefault();
+      try {
+        await api.post('/autentication',{email,password})
+      } catch (error) {
+        return console.log("error",error)
+      }
+      history.push('/')
+  }
+  
+  
   return (
-    <>
-
+      <ContainerLogin>
 
         <LoginMenu>
           <ContainerImg>
             <img src="https://i.imgur.com/Aaeevvn.png" alt="logo-sieve" />
           </ContainerImg>
           <Formulario>
-            <form onSubmit=''>
+            <form onSubmit={handleSubmit}>
               <Inputs>
-                <GoPerson size="28px" /> <input type="text" name="name" />
+                <GoPerson size="28px" /> <input value={email} onChange={e=>setEmail(e.target.value)}type="email" name="email" />
               </Inputs>
               <br />
               <br />
               <Inputs>
-                <FaLock size="28px" />    <input type="email" name="email" />
+                <FaLock size="28px" />    <input value={password} onChange={e=>setPassword(e.target.value)} type="password" name="password" />
               </Inputs>
               <br />
               <div>
@@ -36,14 +50,14 @@ export default function LoginCard() {
               <br />
               <br />
               <Realysub>
-                <Link to="/areadoaluno"><input  className="Submit" type="submit" value="Entrar" /></Link>
-                <Link to="/form"><input   className="Register" type="submit" value="Cadastro" /></Link>
+                <button  className="Login" type="submit" >Login</button>
+                <Link to="/form"><button className="Register">Cadastro</button></Link>
               </Realysub>
             </form>
           </Formulario>
         </LoginMenu>
-
-    </>
+       </ContainerLogin>
+    
   );
 }
 

@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 
 export const ContainerLogin = styled.div`
-
+ background-color: white;
+ padding: 20px;
+ border-radius: 4px;
 `
 
 
@@ -71,7 +73,7 @@ display:flex;
 justify-content: center;
 
 
-input{
+button{
   width: 180px;
   height: 45px;
   margin: 5px;
@@ -82,7 +84,7 @@ input{
   border-radius: 6px;
   cursor: pointer;
 }
-input.Submit{
+button.Submit{
   color: #fff;
   background-color:#007BFF;
   font-family: Montserrat;
@@ -96,7 +98,7 @@ input.Submit:hover{
   background-color: #0069D9;
   color: #fff;
 }
-input.Register{
+button.Register{
   font-family: Montserrat;
   font-size: 14px;
   background-color: #DC3545;

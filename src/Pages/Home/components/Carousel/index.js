@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { Gallery, GalleryImage } from 'react-gesture-gallery'
 import { StyledCarousel, Hr } from './styles';
 
@@ -7,7 +7,7 @@ const index_Inicial = 0;
 
 export default function Carousel() {
 
-  const [index, setIndex] = React.useState(index_Inicial);
+  const [index, setIndex] = useState(index_Inicial);
 
   const images = [
 
@@ -22,7 +22,7 @@ export default function Carousel() {
 
   ];
 
-  React.useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
 
       if (index === images.length - 1) {

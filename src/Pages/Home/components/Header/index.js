@@ -16,7 +16,7 @@ export default function Header({onLogin}) {
 
       </ul>
       <HR color="#C4C4C4"></HR>
-      <button onClick={onLogin}>Login</button>
+      <button type='button' onClick={onLogin}>Login</button>
     </StyledHeader>
   );
 }
