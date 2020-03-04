@@ -1,0 +1,101 @@
+         <p>Dados Sociais</p>
+
+
+          <CreateForm>
+            <label htmlFor="people">Quantas pessoas moram com você?
+          <ReactSelect  className="react-select" name="people" id="people">
+                <option value="N">Selecione</option>
+                <option value="RJ">Moro sozinho</option>
+                <option value="RJ">duas a três</option>
+                <option value="RJ">quatro a sete</option>
+                <option value="RJ">oito a dez</option>
+          </ReactSelect>
+            </label>
+
+            <label htmlFor="estado">A casa onde você mora é?
+            <ReactSelect className="react-select" name="propria" id="casa">
+                <option value="N">Selecione</option>
+                <option value="RJ">Alugada</option>
+                <option value="RJ">Própria</option>
+              </ReactSelect>
+            </label>
+            <label htmlFor="nome" className="small-label">Em que você trabalha atualmente? <br /><Imput type="text" name="mora" placeholder="Digite aqui" className="small-Imput" /></label>
+            <label htmlFor="nome">Com que idade você começou a trabalhar?<Imput type="password" name="idade" placeholder="Digite aqui" /></label>
+          </CreateForm>
+
+          <CreateForm>
+            <label htmlFor="">Qual a sua renda mensal, aproximadamente? <Imput name="renda"   type="text" placeholder="Digite sua renda" /></label>
+            <label htmlFor="">Qual é o nível de escolaridade da sua mãe? <Imput name="escola" placeholder="Digite aqui" /></label>
+            <label htmlFor="" >Possui algum benefício publico? (Se sim, qual? )<Imput name="beneficio" type="text" placeholder="Digite Endereço" /></label>
+          </CreateForm>
+          <CreateForm>
+            <label htmlFor="tv">Sua casa possui quantas televisões?
+              <ReactSelect  className="react-select" name="tv" id="televisao">
+
+                <option value="N">Selecione</option>
+                <option value="RJ">1 a 2</option>
+                <option value="RJ">3 ou mais</option>
+
+              </ReactSelect>
+            </label>
+
+            <label htmlFor="net">Sua casa possui internet?
+
+                <ReactSelect className="react-select" name="net" id="internet">
+                <option value="N">Selecione</option>
+                <option value="RJ">Sim</option>
+                <option value="RJ">Feminino</option>
+                </ReactSelect>
+
+            </label>
+            <label htmlFor="" className="small-label">Qual é sua renda mensal familiar?<Imput name="renda_pessoal" type="text" placeholder="Digite seu email" /></label>
+            <label htmlFor=""> Qual é o nível de escolaridade do seu pai?<Imput name="escolaridade" type="text" placeholder="Digite seu email" /></label>
+          </CreateForm>
+
+          <Hr color="#C4C4C4"></Hr>
+
+
+            <label htmlFor="sexo">Sexo
+
+                <ReactSelect className="react-select" name="sexo" id="sexualidade">
+
+                <option value="N">Selecione</option>
+                <option value="RJ">Masculino</option>
+                <option value="RJ">Feminino</option>
+
+
+              </ReactSelect>
+            </label>
+
+                        <label htmlFor="estado">Estado
+              <ReactSelect className="react-select" name="estado" id="estado">
+
+                <option value="N">Selecione</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RJ">São Paulo</option>
+                <option value="RJ">Minas Gerais</option>
+                <option value="RJ">Belo Horizonte</option>
+                <option value="RJ">Espirito Santo</option>
+                <option value="RJ">Rio Grande do Sul</option>
+
+              </ReactSelect>
+            </label>
+
+
+
+  .btn{
+    display:block;
+    justify-items:center;
+    text-align:center;
+    margin:10px;
+    font-size: 16px;
+    font-weight:bold;
+    font-family: Montserrat;
+  }
+
+export const Hr = styled.hr`
+    width: 80%;
+    margin:0 auto;
+    height: 0.5px;
+    opacity: 0.2;
+`

@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const Screen = styled.div`
   height: 300px;
+
 `
 export const SideBar = styled.div`
   display: flex;
   width: 100%;
   height: 80px;
   background-color: #222D2F;
-
   margin-top:10px;
 
 
@@ -17,6 +17,7 @@ export const SideBar = styled.div`
 export const Cards = styled.div`
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   padding: 40px;
 
 

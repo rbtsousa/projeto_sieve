@@ -32,7 +32,7 @@ export default function Carousel() {
       }
     }, 5000)
     return () => clearInterval(interval)
-  }, [index])
+  }, [images.length, index])
 
 
 

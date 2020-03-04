@@ -49,21 +49,14 @@ export default function QuemSomos() {
             </div>
             <div>
 
-              <img src="https://i.imgur.com/BUr6vtx.png" width='102px' height='95px' alt="" />
-
-              <h3>Guilherme Rocha</h3>
-                <span>
-                    Dev. FullStack
-                  </span>
-
-            </div>
-            <div>
-
               <img src="https://i.imgur.com/c3PaTQm.png" width='102px' height='95px' alt="" />
 
               <h3>Anna Luiza</h3>
                 <span>
                     Dev. FullStack
+                  </span>
+                  <span>
+                    Redes Sociais
                   </span>
 
             </div>
@@ -75,6 +68,9 @@ export default function QuemSomos() {
                 <span>
                     Dev. FullStack
                   </span>
+                  <span>
+                    Redes Sociais
+                    </span>
 
             </div>
 

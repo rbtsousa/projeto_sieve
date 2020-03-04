@@ -7,10 +7,10 @@ import api from '../../services/api'
 
 
 export default function LoginCard(history) {
-  const [email,setEmail] = useState('digite seu email')
-  const[password,setPassword] = useState('digite seu password')
-  
-  
+  const [email,setEmail] = useState('')
+  const[password,setPassword] = useState('')
+
+
   async function handleSubmit(e){
       e.preventDefault();
       try {
@@ -20,8 +20,8 @@ export default function LoginCard(history) {
       }
       history.push('/')
   }
-  
-  
+
+
   return (
       <ContainerLogin>
 
@@ -37,7 +37,7 @@ export default function LoginCard(history) {
               <br />
               <br />
               <Inputs>
-                <FaLock size="28px" />    <input value={password} onChange={e=>setPassword(e.target.value)} type="password" name="password" />
+                <FaLock size="28px" /> <input value={password} onChange={e=>setPassword(e.target.value)} type="password" name="password" />
               </Inputs>
               <br />
               <div>
@@ -57,7 +57,7 @@ export default function LoginCard(history) {
           </Formulario>
         </LoginMenu>
        </ContainerLogin>
-    
+
   );
 }
 
