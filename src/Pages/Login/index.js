@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from 'react-redux'
-import {signInRequest} from '../../store/modules/auth/actions'
+import {signInRequest} from '../../store/module/auth/action'
 import {Form,Input} from '@rocketseat/unform'
 import {  LoginMenu, ContainerImg, Formulario, Inputs, Realysub,ContainerLogin } from './styles';
 import { GoPerson } from 'react-icons/go';
@@ -14,7 +14,7 @@ export default function LoginCard() {
 
 
   async function handleSubmit({email,password}){
-    console.tron.log(email,password)
+    dispatch(signInRequest(email,password))
     
   }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom'
+import {Switch} from 'react-router-dom'
 import Route from './Route'
 import Home from '../Pages/Home/index';
 import QuemSomos from '../Pages/QuemSomos/index'
@@ -10,15 +10,15 @@ import EvaluationForm from '../Pages/Companies/Components/ EvaluationForm'
 
 export default function Routes() {
   return (
-    <BrowserRouter>
+    <Switch>
 
         <Route path="/" exact component={Home}/>
         <Route path="/areadoaluno" isPrivate component={StudentSpace}/>
-        <Route path="/areadaempresa" isPrivate  component={Companies}/>
+        <Route path="/areadaempresa" isPrivate component={Companies}/>
         <Route path="/QuemSomos"  component={QuemSomos}/>
         <Route path="/form"  component={Formulario}/>
         <Route path="/EvaForm"  component={EvaluationForm}/>
 
-    </BrowserRouter>
+    </Switch>
   );
 }

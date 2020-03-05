@@ -1,6 +1,7 @@
 import React from 'react';
 import { HeaderStyled, NavStyled, Aside, Main, Location, Instituicao } from './styles'
 import { GiExitDoor, GiBookshelf } from 'react-icons/gi'
+import {useSelector} from 'react-redux'
 import { FaCircle } from 'react-icons/fa'
 import { GoPerson } from 'react-icons/go'
 import { FiClock } from 'react-icons/fi'
@@ -13,6 +14,8 @@ import Avaliacoes from './Components/Avaliacoes/index'
 
 export default function StudentSpace() {
     const [index, setIndex] = React.useState(<Perfil/>);
+    const profile = useSelector(state=>state.user.profile)
+    
 
     return (
         <>
@@ -21,7 +24,7 @@ export default function StudentSpace() {
                 <NavStyled>
                     <div className="navegacao">
                         <img src="https://i.imgur.com/wEfFj6B.png" alt="" />
-                        <h1>José Luciano</h1>
+                                <h1>{profile.name}</h1>
                         <ul>
                             <Instituicao>
                                 <li>

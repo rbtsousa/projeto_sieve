@@ -1,15 +1,17 @@
 import React,{useRef}from 'react';
 import { Form } from '@unform/web';
+import {useDispatch} from 'react-redux'
 import Imput from '../components/Input';
 import * as Yup from 'yup';
 //import ReactSelect from '../components/ReactSelect'
 import './styles.css'
-
+import {signUpRequest} from '../../../store/module/auth/action'
 
 export default function ReactForm() {
   const FormRef = useRef(null);
+  const dispatch = useDispatch()
 
-  async function handleSubmit(data, { reset }) {
+  async function handleSubmit({name,email,password,gender,age,institution}, { reset }) {
 
     try {
       const schema = Yup.object().shape({
@@ -17,20 +19,20 @@ export default function ReactForm() {
         name: Yup.string().required('O nome é obrigatório'),
         email: Yup.string().email('Digite um e-mail válido').required('O e-email é obrigatório'),
         password: Yup.string().required('A senha é obrigatória'),
-        tel: Yup.string().required('Telefone é obrigatório'),
-        cpf: Yup.string().required('Cpf é obrigatório').min(11, 'No minimo 11 caracteres'),
-        Endereço: Yup.string().required('Endereço é obrigatório'),
+        institution: Yup.boolean().required('Telefone é obrigatório'),
+        //cpf: Yup.string().required('Cpf é obrigatório').min(11, 'No minimo 11 caracteres'),
+        //Endereço: Yup.string().required('Endereço é obrigatório'),
         gender: Yup.string().required('O gênero e obrigatório'),
-        state: Yup.string().required('O estado é obrigatório'),
-        city: Yup.string().required('Cidade é obrigatória')
+        age: Yup.string().required('O idade é obrigatório'),
+        //city: Yup.string().required('Cidade é obrigatória')
     })
 
-    await schema.validate(data, {
+    await schema.validate({name,email,password,gender,age,institution}, {
       abortEarly: false,
     })
 
 
-    console.log(data)
+    dispatch(signUpRequest(name,email,password,gender,age,institution))
     reset()
 
     }catch(err){
@@ -62,13 +64,13 @@ export default function ReactForm() {
       </div>
 
       <div className="createForm">
-            <label htmlFor="">Telefone<Imput name="tel" minLength="9" maxLength="11" type="text" placeholder="Digite seu telefone" /></label>
+            <label htmlFor="">Você é um instituição?<Imput name="institution"  maxLength="11" type="boolean" placeholder="true/false" /></label>
             <label htmlFor="">CPF<Imput name="cpf" minLength="8" type="text" placeholder="Digite seu CPF" /></label>
             <label htmlFor="">Endereço<Imput name="Endereço" type="text" placeholder="Digite Endereço" /></label>
       </div>
       <div className="createForm">
             <label htmlFor="">Gênero<Imput name="gender" type="text" placeholder="Digite seu gênero" /></label>
-            <label htmlFor="">Estado<Imput name="state" type="text" placeholder="Digite seu estado" /></label>
+            <label htmlFor="">idade<Imput name="age" type="number" placeholder="digite sua idade" /></label>
             <label htmlFor="">Cidade<Imput  name="city" type="text" placeholder="Digite seu cidade" /></label>
       </div>
 

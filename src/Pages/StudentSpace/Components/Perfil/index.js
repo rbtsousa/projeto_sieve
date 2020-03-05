@@ -1,8 +1,15 @@
 import React from 'react';
-
+import {useSelector} from 'react-redux';
+import {Form,Input} from '@rocketseat/unform'
 import { Container, Foto, Seguranca } from './styles';
 
 export default function Perfil() {
+    const profile = useSelector(state=> state.user.profile)
+
+    function handleSubmit(data){
+
+    }
+
     return (
         <Container>
             <h2>Dados pessoais</h2>
@@ -17,15 +24,17 @@ export default function Perfil() {
                     <button className="Altera">Alterar</button>
                 </div>
             </Foto>
+            <Form initialData={profile}>
             <section>
+               
                 <div>
-                    <span>Nome</span><input className="Nome" />
+                    <span>Nome</span><Input name="name"  className="Nome" />
                 </div>
                 <div>
-                    <span>Data nascimento</span><input />
+                    <span>idade:</span><Input name="age" disabled/>
                 </div>
                 <div>
-                    <span>Sexo</span><input />
+                    <span>Genero:</span><Input disabled name="gender"/>
                 </div>
             </section>
             <section>
@@ -48,7 +57,7 @@ export default function Perfil() {
                     <span>Celular</span><input />
                 </div>
                 <div>
-                    <span>Email</span><input />
+                    <span>Email</span><Input name='email' />
                 </div>
             </section>
             <button className="Salvar">Salvar Alterações</button>
@@ -56,13 +65,14 @@ export default function Perfil() {
             <hr></hr>
             <Seguranca>
                 <div>
-                    <span>Senha Atual</span><input />
+                    <span>Senha Atual</span><Input name='oldPassword' />
                 </div>
                 <div>
-                    <span>Senha Nova</span><input />
+                    <span>Senha Nova</span><Input name='password' />
                 </div>
                 <button className="Altera">Alterar</button>
             </Seguranca>
+            </Form>
         </Container>
     );
 }
