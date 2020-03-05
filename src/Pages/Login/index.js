@@ -1,24 +1,21 @@
-import React,{useState} from 'react';
+import React from 'react';
+import {useDispatch} from 'react-redux'
+import {signInRequest} from '../../store/modules/auth/actions'
+import {Form,Input} from '@rocketseat/unform'
 import {  LoginMenu, ContainerImg, Formulario, Inputs, Realysub,ContainerLogin } from './styles';
 import { GoPerson } from 'react-icons/go';
 import { FaLock } from 'react-icons/fa';
 import {Link} from 'react-router-dom'
-import api from '../../services/api'
 
 
-export default function LoginCard(history) {
-  const [email,setEmail] = useState('')
-  const[password,setPassword] = useState('')
+
+export default function LoginCard() {
+  const dispatch = useDispatch()
 
 
-  async function handleSubmit(e){
-      e.preventDefault();
-      try {
-        await api.post('/autentication',{email,password})
-      } catch (error) {
-        return console.log("error",error)
-      }
-      history.push('/')
+  async function handleSubmit({email,password}){
+    console.tron.log(email,password)
+    
   }
 
 
@@ -30,30 +27,25 @@ export default function LoginCard(history) {
             <img src="https://i.imgur.com/Aaeevvn.png" alt="logo-sieve" />
           </ContainerImg>
           <Formulario>
-            <form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit}>
               <Inputs>
-                <GoPerson size="28px" /> <input value={email} onChange={e=>setEmail(e.target.value)}type="email" name="email" />
+                <GoPerson size="28px" /> <Input name="email" type="email" />
               </Inputs>
               <br />
               <br />
               <Inputs>
-                <FaLock size="28px" /> <input value={password} onChange={e=>setPassword(e.target.value)} type="password" name="password" />
+                <FaLock size="28px" /> <Input name="password"  type="password" />
               </Inputs>
               <br />
               <div>
                 <a href="www.google.com.br">Esqueceu sua senha ?</a>
               </div>
               <br />
-              <div>
-                <input type="checkbox" name="check" /> <span>Mantenha-me conectado</span>
-              </div>
-              <br />
-              <br />
               <Realysub>
                 <button  className="Login" type="submit" >Login</button>
                 <Link to="/form"><button className="Register">Cadastro</button></Link>
               </Realysub>
-            </form>
+            </Form>
           </Formulario>
         </LoginMenu>
        </ContainerLogin>
