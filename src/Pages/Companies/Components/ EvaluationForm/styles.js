@@ -88,8 +88,6 @@ label{
   font-size: 14px;
   height: 20px;
 
-
-
 }
 
 select{
